@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <!-- poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@icon/icofont@1.0.1-alpha.1/icofont.min.css" rel="stylesheet">
+
+    <!-- lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
+  
+</head>
+<body>
+    <div class="bodyDiv">      
+            <form action="include/index.php" method="post" >
+                <div id="bio">
+                    <div>
+                        <label for="name">Name:</label> 
+                        <br>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <br>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div>
+                        <label for="number">Phone number:</label>
+                        <br>
+                        <input type="text" name="number" id="number" inputmode="numeric">
+                    </div>
+                    <div>
+                        <label for="address">Address:</label>
+                        <br>
+                        <input type="text" name="address" id="address">
+                    </div>
+                    <div>
+                        <label for="sex">Sex:</label>&nbsp; 
+                        <input type="radio" name="sex" id="male">male &nbsp;
+                        <input type="radio" name="sex" id="female">female
+                    </div>
+                    <div>
+                        <label for="date">Date Of Birth:</label>
+                        <br>
+                        <input type="date" name="date" id="date">
+                    </div>
+                    <div>
+                        <label for="nationality">Nationality:</label>
+                        <br>
+                        <input type="text" name="nationality" id="nationality">
+                    </div>
+                    <div>
+                        <label for="guardian">Guardian Contact:</label>
+                        <br>
+                        <input type="text" name="guardian" id="guardian" inputmode="numeric">
+                    </div>
+                    <div class="divBtn">
+                        <button type="button">Next</button>
+                    </div>
+                </div>
+            </form>
+       
+    </div>
+</body>
+</html>

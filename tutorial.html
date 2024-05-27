@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial</title>
+    <link rel="stylesheet" href="assets/css/form.css">
+
+    <!-- roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <!-- poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@icon/icofont@1.0.1-alpha.1/icofont.min.css" rel="stylesheet">
+
+    <!-- lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="bodyDiv">
+        <form action="include/index.php" method="post">
+
+            <div id="tutorial">
+                <div>
+                    <label for="courses">Courses:</label>
+                        <select name="courses" id="courses">
+                            <option value="cybersecurity">Cyber Security</option>
+                            <option value="productdesign">Product Design (UI/UX)</option>
+                            <option value="python">Python</option>
+                            <option value="dataanalysis">Data Analysis</option>
+                        </select>
+                </div>
+                <div>
+                    <label for="mode"> Mode Of Learning:</label>
+                        <input type="radio" name="mode" id="online"> Online
+                        <input type="radio" name="mode" id="onsite"> Onsite
+                </div>
+                <div>
+                    <label for="exp">Experience:</label>
+                    <br>
+                        <input type="radio" name="exp" id="beginner"> Beginner
+                        <input type="radio" name="exp" id="intermediate"> Intermediate
+                        <input type="radio" name="exp" id="advanced"> Advanced
+                </div>
+                <div id="divBtn">
+                    <button type="button">Previous</button>
+                    <button type="submit">Submit</button>
+                </div>
+           
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

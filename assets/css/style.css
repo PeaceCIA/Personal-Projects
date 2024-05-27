@@ -1,0 +1,85 @@
+* {
+    font-family: "Roboto", "lato", "Poppins";
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    position: relative;
+
+    .bodyDiv{
+        width: 100%;
+        height: 100dvh;
+        display: grid;
+        place-items: center;
+
+        form{
+            width: 80%;
+            height: 80dvh;
+            display: grid;
+            place-items: center;
+            
+            /* Bio */
+            #bio{
+                border: 2px solid black;
+                height: 600px;
+                width: 400px;
+                background-color: white;
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+               
+                div{
+                    width: 90%;
+                
+                    input[type ="text"]{
+                        width: 90%;
+                        height: 30px;
+                    }
+                    input[type ="email"]{
+                        width: 90%;
+                        height: 30px;
+                    }
+                    input[type ="date"]{
+                        width: 90%;
+                        height: 30px;
+                    }
+                    input{
+                        border-top: none;
+                        border-left: none;
+                        border-right: none;
+                        border-bottom: 2px solid black;
+                    }
+                        input:enabled{
+                            border-top: none;
+                            border-left: none;
+                            border-right: none;
+                            border-bottom: 2px solid black;
+                            outline: none;
+                        }
+                    }
+                    button{
+                        background-color: #EF6E11;
+                        border: none;
+                        border-radius: 10px;
+                        width: 70px;
+                        height: 50px;
+                        cursor: pointer;
+                    }
+                }
+                .divBtn{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+
+            }
+            
+    }
+}
